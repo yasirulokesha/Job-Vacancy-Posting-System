@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 13pt;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+
+body {
+  width: 90%;
+  height: fit-content;
+  max-width: 600px;
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 3em;
+  filter: drop-shadow(2px 5px 10px #00000061);
+}
+
+button,
+a {
+  display: block;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  transition-duration: 500ms;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+}
+
+a:hover {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #000000;
+}
+
+button {
+  border: none;
+  margin: 0px 3px 3px 0px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  color: #000;
+  background-color: #bababa85;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: #7563ff;
+  border-style: solid;
+  border-bottom-width: 3px;
+}
+
+input[type="text"]:focus {
+  border-bottom: #ff6363;
+}
+
+.post {
+  display: block;
+  border: solid #c471f5 3px;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 25px 0px;
+}
