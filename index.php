@@ -22,7 +22,6 @@
 
     <a href="postjobform.php">Post a job vacancy</a>
     <a href="searchjobform.php">Search for a job vacancy</a>
-    <a href="about.php">About this assignment</a>
 </body>
 
 </html>
