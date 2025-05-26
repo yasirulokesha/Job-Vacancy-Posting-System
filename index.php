@@ -10,14 +10,9 @@
 
 <body>
     <h1>Job Vacancy Posting System</h1>
-    <h2>Yasiru Lokesha | 104060309<br />
-        <div style="font-size: 12pt;">104060309@student.swin.edu.au</div>
-    </h2>
 
     <p>
-        I declare that this assignment is my individual work. I have not
-        worked collaboratively, nor have I
-        copied from any other student’s work or from any other source
+        A web-based job management platform designed to streamline the process of posting, viewing, and applying for job vacancies. Built with PHP, HTML/CSS, and MySQL, the system supports user registration, role-based access (admin/employer/jobseeker), job listings, and application tracking. Ideal for small-scale recruitment or academic demonstration of CRUD and authentication functionality.
     </p>
 
     <a href="postjobform.php">Post a job vacancy</a>
